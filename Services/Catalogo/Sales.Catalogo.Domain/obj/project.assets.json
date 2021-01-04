@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Sales.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Sales.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sales.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Sales.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Sales.Core/Sales.Core.csproj",
+      "msbuildProject": "../../Core/Sales.Core/Sales.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Sales.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/matheus/.nuget/packages/": {}
@@ -30,7 +49,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+              "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
