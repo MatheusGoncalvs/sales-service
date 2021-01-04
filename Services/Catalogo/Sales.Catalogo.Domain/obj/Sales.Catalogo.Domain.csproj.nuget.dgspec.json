@@ -42,7 +42,7 @@
           "dependencies": {
             "Mediatr": {
               "target": "Package",
-              "version": "[*, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "P6cb1NOkwQDSERBSho0Yy941j1/P0V8wYZ/ofmXtPm9Pmg6LLOqLCN85CrsWllfVx6Nw688CwRFyDYhL2D0Crw==",
+  "dgSpecHash": "WfQTFqfFCau9tQDDpPk4GiyWOYk203PnU9w74jBhaP8KiYtlNwOoqXtlNA7dQ/d6rFcz+vMdpnyqWNQ+jx/spw==",
   "success": true,
   "projectFilePath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj",
   "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.entityframeworkcore/5.0.1/microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.1/microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
     "/home/matheus/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.1/microsoft.entityframeworkcore.analyzers.5.0.1.nupkg.sha512",

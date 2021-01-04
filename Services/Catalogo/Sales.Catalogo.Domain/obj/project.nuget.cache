@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QXO289bWQmAo/qIlGv4V3DaZS5FYWFFHBL2fl0D2yF4psEBDCqz7k+XVSbFKKMU4Z86eimurcSy3h6sV/XsfkA==",
+  "dgSpecHash": "DHKHp+vRq7uzwnnhQZrPn8UwCdPPh4aalR9Xxopz7mN6MVsOUsB1NRhuxDomjf6tU2cym0blgjra/Uzx0vNJlw==",
   "success": true,
   "projectFilePath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,337 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/matheus/repos/sales-service/WebApps/Sales.WebApp.MVC/Sales.WebApp.MVC.csproj": {}
+  },
+  "projects": {
+    "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj",
+        "projectName": "Sales.Catalogo.Application",
+        "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "automapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj",
+        "projectName": "Sales.Catalogo.Data",
+        "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj",
+        "projectName": "Sales.Catalogo.Domain",
+        "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Mediatr": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj",
+        "projectName": "Sales.Core",
+        "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Mediatr": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/matheus/repos/sales-service/WebApps/Sales.WebApp.MVC/Sales.WebApp.MVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/matheus/repos/sales-service/WebApps/Sales.WebApp.MVC/Sales.WebApp.MVC.csproj",
+        "projectName": "Sales.WebApp.MVC",
+        "projectPath": "/home/matheus/repos/sales-service/WebApps/Sales.WebApp.MVC/Sales.WebApp.MVC.csproj",
+        "packagesPath": "/home/matheus/.nuget/packages/",
+        "outputPath": "/home/matheus/repos/sales-service/WebApps/Sales.WebApp.MVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/matheus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Data/Sales.Catalogo.Data.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Domain/Sales.Catalogo.Domain.csproj"
+              },
+              "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj": {
+                "projectPath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

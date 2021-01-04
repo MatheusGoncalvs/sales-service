@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eJVtmK+F6mkj3vD2MagaZzIrfwLQx22AeJyUD14GckhADiNHB0OavnB16xhONVfRu87+ANQNBd6iCeGFXNK34w==",
+  "success": true,
+  "projectFilePath": "/home/matheus/repos/sales-service/Services/Catalogo/Sales.Catalogo.Application/Sales.Catalogo.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/matheus/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/matheus/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/matheus/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

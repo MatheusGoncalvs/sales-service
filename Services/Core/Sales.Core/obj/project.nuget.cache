@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lk6qn9V8IdRf6aygjb6nwzIaXLbuyZVvBNOpdKRNPYGmEsqrErumUiHaOFvyIuKYRlNHozounUBYyO200ZOy6w==",
+  "dgSpecHash": "PkOLn616mgCsfJny3KJJPG2/sNmmjTj9jguEAs/sMxZsp83e0+iLSeNF6OFB7oDs48Bgfs+rVb0NJvS3e7OAWA==",
   "success": true,
   "projectFilePath": "/home/matheus/repos/sales-service/Services/Core/Sales.Core/Sales.Core.csproj",
   "expectedPackageFiles": [
